@@ -88,6 +88,11 @@ features = {
 }
 
 X = pd.DataFrame([features])
+```
+## Bugs To fix
+`Input is not read `
+`Improve accuracy of dataset`
+`Possible over-fitting system might have memorised data set and is showing bias`
 prediction = model.predict(X)[0]
 print(prediction)
 ```
