@@ -69,7 +69,7 @@ PythonShell.run('model_runner.py', { args: [userInputURL] }, function (err, resu
   console.log('Prediction:', results[0]); // 0 = safe, 1 = malicious
 });
 ```
-#### `model_runner.py`
+#### `check_link.py`
 ```python
 import sys
 import pickle
